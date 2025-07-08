@@ -1,20 +1,20 @@
-name = "Newb X Legacy"
-version = [0, 16, 0]
+name = "Newb Glow"
+version = [0, 8, 0]
 min_supported_mc_version = [1, 21, 20]
 description = '''
 §c%w
 §7- An enchanced vanilla shader for Minecraft!
 %v
-§3https://devendrn.github.io/newb-shader/
+§3https://discord.gg/VQT3hQB9Ey
 ''' # %w = patch warning, %v = version
-authors = ["devendrn"]
-url = "https://devendrn.github.io/newb-shader/"
-uuid = "95f774cf-4afa-73e7-a21a-72146307b1d2" # Use https://www.uuidgenerator.net/version4
-materials = ["Sky", "RenderChunk", "Actor", "ActorGlint", "EndSky", "Clouds", "SunMoon", "Weather", "ItemInHandTextured", "ItemInHandColor", "ItemInHandColorGlint", "Stars"]
+authors = ["×XchizaX×", "devendrn"]
+url = "https://discord.gg/VQT3hQB9Ey"
+uuid = "debe30f7-26c3-4522-bd6b-4df6e29810d4" # Use https://www.uuidgenerator.net/version4
+materials = ["Sky", "RenderChunk", "Actor", "Clouds", "SunMoon", "Weather", "ItemInHandTextured", "ItemInHandColor", "ItemInHandColorGlint", "Stars"]
 
 [info] 
 copyright = '''
-Copyright © 2025 %a, and "Newb Shader" Contributors
+Copyright © 2024 %a, and "Newb Shader" Contributors
 
 This compiled "Newb Shader" resource pack (source code: https://github.com/devendrn/newb-x-mcbe under MIT License) is licensed under CC BY-ND 4.0 (https://creativecommons.org/licenses/by-nd/4.0/). Redistribute only unmodified copies with proper attribution to "Newb Shader" and variant creators (if any). Do not distribute derivatives.
 
@@ -29,57 +29,42 @@ credits = '''
 # right-most subpack is enabled by default
 
 [[subpack]]
-define = "ROUNDED_CLOUDS"
-materials = ["Clouds"]
-description = '''
-Rounded Clouds
-'''
+define = "PPL"
+materials = []
+description = '''Pixel Perfection Legacy'''
 
 [[subpack]]
-define = "BOX_CLOUDS"
-materials = ["Clouds", "RenderChunk"]
-description = '''
-Box Clouds
-'''
+define = "MULTIPIXEL"
+materials = []
+description = '''Multipixel'''
 
 [[subpack]]
-define = "CHUNK_ANIM"
-materials = ["RenderChunk"]
-description = '''
-Chunk loading animation
-'''
+define = "FAITHFUL64"
+materials = []
+description = '''Faithful x64'''
 
 [[subpack]]
-define = "NO_WAVE_NO_FOG"
-materials = ["RenderChunk"]
-description = '''
-No fog and wave effects
-'''
+define = "FAITFUL32"
+materials = []
+description = '''Faithful x32'''
 
 [[subpack]]
-define = "NO_FOG"
-materials = ["RenderChunk"]
-description = '''
-No fog effect
-'''
+define = "EASYBLOCKS"
+materials = []
+description = '''EasyBlocks'''
 
 [[subpack]]
-define = "NO_WAVE"
-materials = ["RenderChunk"]
-description = '''
-No wave effects
-'''
+define = "DANDELION"
+materials = []
+description = '''Dandelion'''
 
-#[[subpack]]
-#define = "LITE"
-#materials = ["Sky", "RenderChunk", "Actor", "ActorGlint", "EndSky", "Clouds", "SunMoon", "Weather", "ItemInHandTextured", "ItemInHandColor", "ItemInHandColorGlint", "Stars"]
-#description = '''
-#Many effects disabled. A bit lighter!
-#'''
+[[subpack]]
+define = "BAREBONES"
+materials = []
+description = '''BareBones'''
 
 [[subpack]]
 define = "DEFAULT"
 materials = []
-description = '''
-Default
-'''
+description = '''Minecraft'''
+
